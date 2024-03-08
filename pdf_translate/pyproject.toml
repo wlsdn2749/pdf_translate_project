@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdf-translate"
+version = "0.1.0"
+description = ""
+authors = ["wlsdn2749 <wlsdn2749@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spire-pdf = "^10.2.0"
+plum-dispatch = "1.7.4"
+pdf2docx = "^0.5.8"
+python-docx = "^1.1.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

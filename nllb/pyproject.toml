@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nllb"
+version = "0.1.0"
+description = ""
+authors = ["wlsdn2749 <wlsdn2749@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.38.2"
+requests = "^2.31.0"
+torch = "^2.2.1"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
+locust = "^2.24.0"
+orjson = "^3.9.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
